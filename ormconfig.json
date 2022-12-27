@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "Senha@edu9125",
+  "database": "postgres",
+  "entities": ["src/app/models/*.ts"],
+  "migrations": ["src/databases/migration/*.ts"],
+  "cli": {
+    "migrationsDir": "src/databases/migration"
+  }
+}
